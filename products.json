@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "name": "Item",
+            "seller": "Meg",
+            "description": "Beskrivelse...",
+            "picture": "item_image.jpg",
+            "classroom": "A321",
+            "contacts": "email: email@email.com",
+            "price": "50kr"
+        },
+        {
+            "name": "Item2",
+            "seller": "Deg",
+            "description": "BESKRIVELSE!!!",
+            "picture": "info.png",
+            "classroom": "C400",
+            "contacts": "skype: cool_lemon_2005",
+            "price": "500kr"
+        }
+    ]
+}

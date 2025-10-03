@@ -1,0 +1,210 @@
+.item_container {
+    align-content: center;
+    width: 60%;
+    height: 30%;
+    margin: 70% 20% 40% 20%;
+}
+
+.picture {
+    width: 330px;
+    height: 330px;
+    border-color: black;
+    border-style: inset;
+}
+
+.description_container {
+    margin-left: 55%;
+    margin-top: -53%;
+    word-wrap: break-word;
+    word-break: normal;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item_name {
+    text-align: center;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.info_list {
+    list-style-type: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.contact_info {
+    text-decoration-line: underline;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+#first_container {
+    margin-top: 45%;
+    margin-bottom: 10%;
+}
+
+#second_container {
+    margin-top: 55%;
+}
+
+#description_container_2 {
+    width: 45%;
+    margin-left: 0;
+}
+
+#picture_2 {
+    margin-left: 55%;
+    margin-top: -33%;
+}
+
+
+
+
+
+
+
+
+.payment_container {
+    width: 70%;
+    margin: 20% 10% 20% 9%;
+    padding: 5% 7% 5% 5%;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+#checkout_header {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#placement_price {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.input_field_container {
+    margin: 15px 0 15px 0;
+}
+
+.input_field_name {
+    font-size: 22px;
+    margin-left: 10px;
+    max-width: 60%;
+    word-break: auto-phrase;
+}
+
+.input_field {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.description_field_container {
+    margin: 15px 0 15px 0;
+}
+
+#description_field {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 10px;
+    padding-left: 10px;
+    max-width: 100%;
+    max-height: 200px;
+    min-width: 40%;
+    min-height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: black;
+    border-left-color: black;
+}
+
+.image_input_container {
+    margin: 15px 0 15px 0;
+}
+
+#image_input {
+    margin-top: 5px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 22px;
+    vertical-align: center;
+}
+
+#image_input::file-selector-button {
+    height: 50px;
+    width: 200px;
+    background-color: azure;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+
+.submit_button {
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 50px;
+    height: 70px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    background-color: #ffffb2;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+
+
+

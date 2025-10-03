@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="payment_container" method="post" action="/add_product" id="product" name="product" enctype="multipart/form-data">
+        <h1 id="checkout_header">Bestillingsskjema</h1>
+        <h2 id="placement_price">Pris: 50 kroner</h2>
+        <div class="input_field_container">
+            <label for="name" class="input_field_name">Navn</label><br>
+            <input type="text" class="input_field" id="name" name="seller" required placeholder="Navn Etternavn..." maxlength="50">
+        </div>
+
+        <div class="input_field_container">
+            <label for="product_name" class="input_field_name">Produktet ditt</label><br>
+            <input type="text" class="input_field" id="product_name" name="name" required placeholder="Hjemmelagt noe..." maxlength="50">
+        </div>
+
+        <div class="input_field_container">
+            <label for="classroom" class="input_field_name">Klasseromet</label><br>
+            <input type="text" class="input_field" id="classroom" name="classroom" required placeholder="A111..." maxlength="4">
+        </div>
+
+        <div class="input_field_container">
+            <label for="contacts" class="input_field_name">Kontakter (det som passer best for deg: telefon, email, snap, discord, osv...)</label><br>
+            <input type="text" class="input_field" id="contacts" name="contacts" required placeholder="mail: email@email.com..." maxlength="50">
+        </div>
+
+        <div class="input_field_container">
+            <label for="price" class="input_field_name">Pris</label><br>
+            <input type="text" class="input_field" id="price" name="price" required placeholder="50kr..." maxlength="15">
+        </div>
+
+        <div class="description_field_container">
+            <label for="description_field" class="input_field_name">Beskrivelse</label><br>
+            <textarea name="description" id="description_field" required maxlength="200" placeholder="Beskrivelse..."></textarea>
+        </div>
+
+        <div class="image_input_container">
+            <label for="image_input" class="input_field_name">Foto</label><br>
+            <input type="file" id="image_input" name="picture" accept="image/*" required><br>
+        </div>
+        <input type="submit" value="Gå til betalling" class="submit_button">
+    </form>
+</body>
+</html>

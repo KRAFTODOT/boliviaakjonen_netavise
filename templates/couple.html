@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <title>Netavise</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="item_container" id="first_container">
+        <img src="{{ url_for('static', filename='images/'+product1.picture) }}" alt="Item picture" class="picture">
+        <div class="description_container">
+            <h1 class="item_name">{{ product1.name }}</h1>
+            <p class="description">{{ product1.description }}</p>
+            <ul class="info_list">
+                <li class="producent_name">Navn: {{ product1.seller }}</li>
+                <li class="classroom">Klasseromet: {{ product1.classroom }}</li>
+                <li class="contact_info">Kontakter: {{ product1.contacts }}</li>
+                <li class="price">Pris: {{ product1.price }}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="item_container" id="second_container">
+        <div class="description_container" id="description_container_2">
+            <h1 class="item_name">{{ product2.name }}</h1>
+            <p class="description">{{ product2.description }}</p>
+            <ul class="info_list">
+                <li class="producent_name">Navn: {{ product2.seller }}</li>
+                <li class="classroom">Klasseromet: {{ product2.classroom }}</li>
+                <li class="contact_info">Kontakter: {{ product2.contacts }}</li>
+                <li class="price">Pris: {{ product2.price }}</li>
+            </ul>
+        </div>
+        <img src="{{ url_for('static', filename='images/'+product2.picture) }}" alt="Item picture" class="picture" id="picture_2">
+    </div>
+</body>
+</html>

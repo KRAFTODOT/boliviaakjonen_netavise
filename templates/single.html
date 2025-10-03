@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <title>Netavise</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="item_container">
+        <img src="{{ url_for('static', filename='images/'+product.picture) }}" alt="Item picture" class="picture">
+        <div class="description_container">
+            <h1 class="item_name">{{ product.name }}</h1>
+            <p class="description">{{ product.description }}</p>
+            <ul class="info_list">
+                <li class="producent_name">Navn: {{ product.seller }}</li>
+                <li class="classroom">Klasseromet: {{ product.classroom }}</li>
+                <li class="contact_info">Kontakter: {{ product.contacts }}</li>
+                <li class="price">Pris: {{ product.price }}</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
